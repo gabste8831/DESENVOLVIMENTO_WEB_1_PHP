@@ -8,4 +8,4 @@ $nomeCompleto = nome . ' ' . sobrenome;
 
 echo "O nome completo é $nomeCompleto";
 
-?>
+?>.
