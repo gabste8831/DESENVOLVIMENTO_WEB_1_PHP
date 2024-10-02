@@ -1,0 +1,19 @@
+/* Estilo para o texto azul */
+.blue {
+    color: blue; /* Define a cor do texto como azul */
+}
+
+/* Estilo para o texto verde */
+.green {
+    color: green; /* Define a cor do texto como verde */
+}
+
+/* Estilo para o texto vermelho */
+.red {
+    color: red; /* Define a cor do texto como vermelho */
+}
+
+/* Estilo padrão para o texto */
+.black {
+    color: black; /* Define a cor do texto como preto */
+}
