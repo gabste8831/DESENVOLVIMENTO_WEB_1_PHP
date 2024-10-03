@@ -7,14 +7,14 @@
 <body>
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        // Recebimento dos valores preenchidos no formulário
+        // recebimento dos valores preenchidos no formulário
         $ladoA = isset($_POST['ladoA']) ? (float)$_POST['ladoA'] : 0;
         $ladoB = isset($_POST['ladoB']) ? (float)$_POST['ladoB'] : 0;
 
-        // Cálculo da área do retângulo
+        // cálculo da área do retângulo
         $area = $ladoA * $ladoB;
 
-        // Exibindo o resultado com a tag apropriada
+        // exibindo o resultado com a tag apropriada
         if ($area > 10) {
             echo "<h1>A área do retângulo de lados $ladoA e $ladoB metros é " . number_format($area, 2) . " metros quadrados.</h1>";
         } else {
@@ -25,6 +25,6 @@
     }
     ?>
     <br>
-    <a href="index.php">Voltar</a> <!-- Link para voltar ao formulário -->
+    <a href="index.php">Voltar</a> 
 </body>
 </html>
